@@ -14,7 +14,7 @@ git push heroku master
 
 /sponsorstate is to search using sponsor state
 
-#### Uses JestClinet to connect to ES.
+#### Uses JestClient to connect to ES.
 
 #### Config
 elasticSearchEndpoint=https://xxxxx-xx.aws.r53.xx.com/
