@@ -30,7 +30,7 @@ public class Utilities {
         FileReader fileReader = null;
         CSVParser csvFileParser = null;
         try{
-            fileReader = new FileReader(getClass().getClassLoader().getResource("test.csv").getFile());
+            fileReader = new FileReader("test.csv");
             csvFileParser = new CSVParser(fileReader, CSVFormat.DEFAULT.withHeader());
             List<CSVRecord> csvRecords = csvFileParser.getRecords();
             Map<String, Integer> headerMap = csvFileParser.getHeaderMap();
